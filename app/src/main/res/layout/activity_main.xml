@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.liuyuan.lottie_demo.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ChooseLoadWay"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/FromAssets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FromAssets" />
+
+    <Button
+        android:id="@+id/FromSDCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FromSDCard" />
+
+    <Button
+        android:id="@+id/FromNetWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FromNetWork" />
+
+    <Button
+        android:id="@+id/FontView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FromNetWork" />
+
+</LinearLayout>

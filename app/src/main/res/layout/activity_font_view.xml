@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <com.example.liuyuan.lottie_demo.LottieFontViewGroup
+        android:id="@+id/fontView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.liuyuan.lottie_demo.FontViewActivity" />
+</ScrollView>
+

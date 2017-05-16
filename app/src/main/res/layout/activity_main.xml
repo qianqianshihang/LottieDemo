@@ -37,6 +37,6 @@
         android:id="@+id/FontView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="FromNetWork" />
+        android:text="FontView" />
 
 </LinearLayout>
